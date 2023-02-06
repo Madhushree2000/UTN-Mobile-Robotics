@@ -292,6 +292,7 @@ matrix inversion, and
 $I$ the identity matrix.
 
 # FastSLAM
+
 ## SLAM with Particle Filters
 
 As discussed in the previous course part, the particle filter is a general method for Bayesian state estimation that does not make assumptions about the form of the belief distribution. Ideally, we want to keep that generality in SLAM. In principle, the SLAM problem could be approached with a particle filter similar to localization. We can consider the robot pose and the map as a joint state variable 
@@ -536,7 +537,7 @@ $Σ_i
 k
 ]$
  the corresponding covariance. With that, the FastSLAM algorithm is:
-<img src="/Users/madhushreesannigrahi/Documents/GitHub/UTN-Mobile-Robotics/images/Algo.png" alt="img0" width="600"/>
+<img src="images/Algo.png" alt="img0" width="500"/>
 
 In line 8, 
 $Q$

@@ -45,7 +45,7 @@ $360^\circ$
 , the FoV of the Sick LiDAR shown on the left (and the one used in the assignment) is 
 $180^\circ$. The figure on the right schematically depicts a scan of a LiDAR with a $180^\circ$ FoV. 
 
-<img src="/Users/madhushreesannigrahi/Documents/GitHub/UTN-Mobile-Robotics/images/lidar_scan.png" alt="img0" width="500"/>
+<img src="images/lidar_scan.png" alt="img0" width="500"/>
 
 A raw LiDAR scan is an array of length 
 $n$

@@ -17,7 +17,7 @@ Hello and Welcome to the Course "Mobile Robotics"!!
 
 Portrait of Prof. Dr. Wolfram Burgard
 
-<img src="images/wilfram.jpeg" alt="img0" width="300"/>
+<img src="images/wilfram.jpeg" alt="img0" width="400"/>
 
   Prof. Dr. Wolfram Burgard
   Office: Ulmenstr. 52i, Nuremberg

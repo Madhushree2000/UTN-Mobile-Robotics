@@ -4,7 +4,7 @@ One way to approximate a continuous belief distribution is to decompose the stat
 Consider the problem of localizing a robot moving in a 1D world as shown in the figure below. We split the state space $s$ into $n$ equally-sized intervals where $s_k$ is the center of the 
 $k$ th interval. The initial belief $Bel_0(s_k)$ (the height of the yellow bars) is set to $1/n$ for all intervals.
 
-<img src="/Users/madhushreesannigrahi/Documents/GitHub/UTN-Mobile-Robotics/images/step_0.png" alt="img0" width="700"/>
+<img src="images/step_0.png" alt="img0" width="700"/>
 
 Next, we integrate the observation 
 $o$
@@ -44,7 +44,7 @@ s_k
 . To obtain a proper probability distribution, 
 $Bel_1^-$ is then re-normalized.
 
-<img src="/Users/madhushreesannigrahi/Documents/GitHub/UTN-Mobile-Robotics/images/step_1.png" alt="img0" width="700"/>
+<img src="images/step_1.png" alt="img0" width="700"/>
 
 Finally, we integrate a motion action 
 u
@@ -85,7 +85,7 @@ $O
 n^2
 )$
 .
-<img src="/Users/madhushreesannigrahi/Documents/GitHub/UTN-Mobile-Robotics/images/step_2.png" alt="img0" width="700"/>
+<img src="images/step_2.png" alt="img0" width="700"/>
 
 The discrete Bayes filter can also be applied to higher-dimensional state spaces. For instance, to localize a robot on a plane, the belief would be represented by a 3D grid with two axes for the 
 $(
